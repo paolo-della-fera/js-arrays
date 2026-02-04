@@ -40,3 +40,5 @@ const isFabioPresent = teachers.indexOf('Fabio') >= 0;
 console.log(isFabioPresent);
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
+const teachersString = teachers.join(", ");
+console.log(teachersString);
